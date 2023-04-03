@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://i.postimg.cc/mD4kshy9/header-image.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+/* discount section */
+
+
+#header_20_discount_true_icon{
+ top: -8%;
+ display: none;
+ color: #9e5ed3;
+ 
+}
+
+#header_20_discount_true_icon2{
+    top: -8%;
+    display: none;
+    color: #9e5ed3;
+    
+   }
+   
+#header_20_discount_true_icon3{
+    top: -8%;
+    display: none;
+    color: #9e5ed3;
+    
+   }
+.header_20_discount{
+ 
+    margin-left: -83%;
+    font-size: 13px;
+    background-color: #2f80ed;
+    padding: 2px;
+    border-radius: 5%;
+}
+/* discount section */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+
+
+.language-btn {
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav select {
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #d0d0d0;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1PX solid #FFF;
+    padding: 6PX 8PX;
+}
+
+.header-content {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.header-content h3 {
+    font-size: 35px;
+    font-weight: 700;
+}
+

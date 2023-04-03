@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    height: 969px;
+    background-color: rgb(9, 0, 19);
+    
+}
+
+.box{
+    max-width: fit-content;
+    height: 500px;
+    border-radius: 25px;
+    padding: 0px 30px;
+    
+}
+
+.icon{
+    padding: 15px 0px;
+    
+}
+
+.icon img{
+    padding: 0px 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 180, 180);
+    background-color: none;
+    
+    
+}
+
+.button{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+}
+
+.hr-theme-slash-2 {
+    display: flex;
+    padding: 15px 0px;
+}
+    .hrline {
+      width: 100%;
+      position: relative;
+      margin: 15px;
+      border-bottom: 1px solid #c1c1c1;
+    }
+
+
+    .hricon {
+      position: relative;
+      top: 3px;
+      color: #ff0000;
+    }
+
+    .hr-theme-slash-2 button{
+        padding: 10px 16px;
+        border-radius: 50%;
+        border: 1px solid rgb(180, 180, 180);
+    }
+
+    .formin p a{
+        text-decoration: none;
+        color: rgb(129, 0, 221);
+    }
